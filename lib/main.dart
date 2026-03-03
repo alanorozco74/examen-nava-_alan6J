@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pago_screen.dart';
+import 'Inicio.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -27,6 +27,6 @@ void main() {
       ),
       useMaterial3: true,
     ),
-    home: PagoScreen(),
+    home: InicioScreen(),
   ));
 }
